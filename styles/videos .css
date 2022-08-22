@@ -91,3 +91,9 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 499px) {
+  .videos-grid{
+    grid-template-columns: 1fr;
+  }
+}
