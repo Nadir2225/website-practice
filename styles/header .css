@@ -60,7 +60,7 @@
 
 .search{
   width: 0;
-  height: 36px;
+  height: 34px;
   border-width:1px;
   flex: 1;
   border-bottom-left-radius: 2px;
@@ -68,8 +68,11 @@
   border-color: #d3d3d3;
   padding-left: 8px;
   border-style: solid;
-  border-right-width: 0px;
   box-shadow: inset 0px 1px 1px rgba(221, 221, 221, 0.418);
+  z-index: 100;
+}
+.search:focus{
+  outline: 1px solid rgb(0, 81, 255);
 }
 
 .s-button{
@@ -78,6 +81,7 @@
   justify-content: center;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
+  border-left-width: 0px;
   border-width: 1px;
   border-color: #cfcfcf;
   height: 40px;
